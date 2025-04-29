@@ -1,6 +1,6 @@
 # Serious SQL Projects
 
-## Introduction
+## 📚️ Introduction
 
 This repository contains solutions to the case studies in the [Serious SQL course](https://www.datawithdanny.com/courses/serious-sql) at *Data with Danny*.
 
@@ -19,14 +19,12 @@ Table of Contents
  1. deploying the serious-sql-environment github repository on gitpod.
  2. deploying the serious-sql-environment container locally on Docker.
 
-## Technologies Used
+## 🛠️ Tools and Technologies Used
 
+- **SQL**: For querying and transforming data.
+- **Database**: Relational databases (PostgreSQL).
 The use of containers for setting up the databases ensures that these projects are entirely focused on (postgres) SQL
 
 ## Repo Structure
 
 Each case study or challenge has its own folder with a `README.md` that explains what it is about and how it was handled.
-
-## Contact Information
-
-You can reach out for questions, collaboration, or more information about this project.
