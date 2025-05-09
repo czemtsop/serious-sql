@@ -1,7 +1,21 @@
 # People Analytics Portfolio Project
 
-## Overview
-This project focuses on People Analytics, leveraging data to provide insights into workforce trends, employee performance, and organizational dynamics. The goal is to use data analytics techniques to support decision-making and improve human resource strategies.
+## 1. 📚️ Introduction
+This Case Study focuses on leveraging SQL to prepare data for a people analytics dashboard. The goal is to help an HR department build a bespoke dashboard and employee view ("Deep dive") page.
+
+### 1.1 🗝️ Key Features
+
+- **Data Exploration**: Analyze customer demographics, rent patterns, and engagement metrics.
+- **Communication**: Prepare data for email to present insights effectively.
+
+
+### 1.2 Outcomes
+
+- Improved understanding of customer behavior.
+- Customised marketing emails based on data insights.
+- Optimized campaign performance and ROI.
+
+### 1.3 Requirements Analysis
 
 ## Objectives
 - Analyze workforce data to identify trends and patterns.
