@@ -297,5 +297,4 @@ CREATE TEMP TABLE recommendations AS
   
 
 SELECT * FROM recommendations
-ORDER BY customer_id
-LIMIT 15;
+ORDER BY customer_id;
