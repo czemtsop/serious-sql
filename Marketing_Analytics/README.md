@@ -1,6 +1,7 @@
-# Marketing Analytics Case Study
+<h1 style="text-align: center;"> Marketing Analytics Case Study</h1>
 
-## 1. 📚️ Introduction
+<h2 style="text-align: center;">1. 📚️ Introduction </h2>
+
 This Case Study focuses on leveraging SQL to prepare data for a marketing campaign and derive actionable insights. The goal is to help a DVD rental business engage customers on an individual level, based on their past behavior.
 
 ### 1.1 🗝️ Key Features
@@ -9,7 +10,7 @@ This Case Study focuses on leveraging SQL to prepare data for a marketing campai
 - **Communication**: Prepare data for email to present insights effectively.
 
 
-### 1.2 Outcomes
+### 1.2 🎯️ Outcomes
 
 - Improved understanding of customer behavior.
 - Customised marketing emails based on data insights.
@@ -19,7 +20,10 @@ This Case Study focuses on leveraging SQL to prepare data for a marketing campai
 
 The DVD Rental Co marketing department has requested for help getting the data needed to fuel their first ever customer email campaign. They shared a template of the email they will send to each customer and after analysing it, we have a broad idea of what data we need to provide. We have split these main requirements into 9 major insights, for each customer.
 
+<div style="text-align: center;">
+
 ![DVD RENTAL CO email template](dvd_rental.png)
+</div>
 
 The table below summarises our observations on each insight.
 
@@ -32,11 +36,14 @@ The table below summarises our observations on each insight.
 | 8 | Some statistics related to the favourite actor identified in (7) | - |
 | 9 | Film recommendations based on the favourite actor identified in (7) | - No film in (3) or (6) should be found here.<br>- Flag customer if there's no film recommendation|
  
- ## 2. The Data
+ <h2 style="text-align: center;"> 2. ℹ️ The Data </h2>
 
 The data for this project is available in the DVD Rental Co database and the tables needed are shown in the entity relationship diagram (ERD) below.
 
+<div style="text-align: center;">
+
 ![DVD Rental Co ERD](er-1.png)
+</div>
 
 We observe that all these tables are linked by foreign keys, though not directly. To decide what type of joins to use to link our tables, we start by thinking about the data practically:
 
@@ -62,7 +69,7 @@ HAVING COUNT(*) > 1;
 
 With no film in more than one category, we need not be concerned about double counting.
 
-## 3. Solution
+<h2 style="text-align: center;"> 3. 🤔️ Solution </h2>
 
 ### 3.1 Strategy
 
@@ -141,7 +148,7 @@ LIMIT 15;
 ```
 ![Insight 8 and 9](query-3.2d.png)
 
-## Final Output
+<h2 style="text-align: center;"> 4. 💡️ Final Output </h2>
 
 We consolidate the category and actor recommendations to come up with the final data for the marketing campaign.
 ```sql
